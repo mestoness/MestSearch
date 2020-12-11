@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+
+/* reset */
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+
+font-family: 'Space Grotesk', sans-serif;
+background: #2c3e50;
+
+}
+hr{background: #b2bec3;height: 0.2px}
+.main {
+  margin-top: 50px
+}
+
+
+.main .SearchForm input {
+  padding: 10px 20px;
+  background: #3c546b;
+border: none;
+  border-radius: 5px;
+  width: 60%;
+  font-size: 22px;
+  color: white;
+margin-bottom: 10px
+}
+::placeholder{color: #b5b5b5}
+.main .SearchForm input:focus {
+outline: 0;
+ 
+}
+
+@media (max-width:800px) {
+.main .SearchForm input{
+  width: 90%;
+
+}
+
+}
+.main .SearchForm button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  color: white;
+  font-size: 22px;
+background: #4d6c8a
+/*  background: #2980b9;*/
+}
+.main .SearchForm button:hover {
+  background:  #5e83a6;
+
+}
